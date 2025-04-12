@@ -43,7 +43,7 @@ public class searchFunctionality{
 	@Then("User applies different filters and narrows down the search")
 	public void user_applies_different_filters_and_narrows_down_the_search() throws InterruptedException {
 	    TestBase.driver.findElement(By.xpath(" //li[@id='p_n_feature_three_browse-bin/9141482031']")).click();
-	    System.out.println(TestBase.driver.findElement(By.xpath("//span[contains(text(),'Hardcover')]")).isDisplayed());
+	    //System.out.println(TestBase.driver.findElement(By.xpath("//span[contains(text(),'Hardcover')]")).isDisplayed());
 	    WebElement scrolltoElement= TestBase.driver.findElement(By.xpath("//span[contains(text(),'Your Brain on Porn: Internet Pornography and the Emerging Science of Addiction')]"));
 	    am.swipe(scrolltoElement);
 	    String s= scrolltoElement.getText();
