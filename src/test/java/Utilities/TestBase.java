@@ -18,6 +18,7 @@ public class TestBase {
 	public static WebDriver driver;
 	
 	public static WebDriver DriverManager() throws IOException {
+		if (driver == null) {
 		String filepath="C:/Users/ARITRA DEY/eclipse-workspace/automationAmazon/Config/Configuration.properties";
 		Properties p=new Properties();
 		FileReader fr= new FileReader(filepath);
@@ -35,7 +36,7 @@ public class TestBase {
 	if(browser.equalsIgnoreCase("IE")) {
 		System.setProperty("webdriver.InternetExploreDriver.driver","C:/Users/ARITRA DEY/eclipse-workspace/Internet Explorer Driver/IEDriverServer.exe");
 		driver= new InternetExplorerDriver();
-		
+	}
 	/*if(browser=="Safari") {
 		System.setProperty("webdriver.chrome.driver","C:/Users/ARITRA DEY/eclipse-workspace/Chrome Driver/Chrome Driver/chromedriver.exe");
 		driver= new SafariDriver();
@@ -43,8 +44,15 @@ public class TestBase {
 	
 	}
 	driver.manage().window().maximize();
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	return driver;
+	}
+	
+	public static void closeDriver() {
+        if (driver != null) {
+            driver.quit();
+            driver = null; // Prevent reusing a dead session
+        }
 	}
 }
 	

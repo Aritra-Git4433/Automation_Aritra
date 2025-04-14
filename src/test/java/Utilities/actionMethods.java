@@ -12,7 +12,7 @@ public class actionMethods {
 		this.driver=driver;
 	}
 	
-	public void swipe(WebElement element) {
+	public void scroll(WebElement element) {
 	    ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
 	}
 }
