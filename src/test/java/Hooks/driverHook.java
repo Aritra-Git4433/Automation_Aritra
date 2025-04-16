@@ -1,6 +1,8 @@
 package Hooks;
 
 
+import java.io.IOException;
+
 import Utilities.TestBase;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -15,8 +17,9 @@ public class driverHook {
 	        	
 	    }
 
-	  @After
-	    public void tearDown() {
+	 
+	@After
+	    public void tearDown() throws IOException {
 	        
 	            TestBase.closeDriver();
 	        

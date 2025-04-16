@@ -1,5 +1,0 @@
-"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
-"0","","0","Search Funtionality on Amazon","1","0","Search for an item","0"
-"0","","0","Search Funtionality on Amazon","1","0","Search for an non existent item","0"
-"1","","0","Search Funtionality on Amazon","0","0","Blank Search","0"
-"0","","0","Search Funtionality on Amazon","0","1","Search for an item and validates auto suggestion as you type","0"
