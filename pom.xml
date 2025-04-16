@@ -22,15 +22,40 @@
                 <suiteXmlFiles>
                     <suiteXmlFile>testNG.xml</suiteXmlFile>
                 </suiteXmlFiles>
-            </configuration>
+            </configuration>  
+        </plugin>
+        <plugin>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-maven</artifactId>
+            <version>2.11.2</version>
+            <configuration>
+        <resultsDirectory>allure-results</resultsDirectory>
+        <reportDirectory>allure-results</reportDirectory>
+    </configuration>
         </plugin>
     </plugins>
 </build>
+
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
   <dependencies>
+    <!-- Allure Cucumber JVM -->
+     <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-cucumber7-jvm</artifactId>
+        <version>2.29.1</version>
+        
+    </dependency>
+
+    <!-- Allure TestNG Adapter -->
+    <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-testng</artifactId>
+        <version>2.33.0</version>
+        
+    </dependency>
   <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
@@ -72,6 +97,5 @@
     <artifactId>cucumber-testng</artifactId>
     <version>7.21.1</version>
 </dependency>
-
-  </dependencies>
+</dependencies>
 </project>

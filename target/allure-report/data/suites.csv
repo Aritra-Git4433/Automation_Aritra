@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9051","Search for an item","","Wed Apr 16 13:19:16 IST 2025","passed","Wed Apr 16 13:19:25 IST 2025","","Search Funtionality on Amazon","Search for an item",""
+"","7967","Search for an non existent item","","Wed Apr 16 13:19:41 IST 2025","passed","Wed Apr 16 13:19:49 IST 2025","","Search Funtionality on Amazon","Search for an non existent item",""
+"","15333","Blank Search","","Wed Apr 16 13:19:25 IST 2025","broken","Wed Apr 16 13:19:41 IST 2025","","Search Funtionality on Amazon","Blank Search",""
+"","5309","Search for an item and validates auto suggestion as you type","","Wed Apr 16 13:19:49 IST 2025","skipped","Wed Apr 16 13:19:54 IST 2025","","Search Funtionality on Amazon","Search for an item and validates auto suggestion as you type",""

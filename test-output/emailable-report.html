@@ -9,19 +9,22 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">34,464</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">38,378</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">CucumberOptions.TestNGRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1744623372114</td><td rowspan="2">13735</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">CucumberOptions.TestNGRunner</td><td><a href="#m2">runScenario</a></td><td rowspan="2">1744623385940</td><td rowspan="2">6033</td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">CucumberOptions.TestNGRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1744789789137</td><td rowspan="2">5316</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">CucumberOptions.TestNGRunner</td><td><a href="#m2">runScenario</a></td><td rowspan="2">1744789756564</td><td rowspan="2">9241</td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">CucumberOptions.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search for an item&quot;</td><td>&quot;Search Funtionality on Amazon&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[contains(@placeholder,&apos;Search Amazon.in&apos;)]&quot;}
-  (Session info: chrome=135.0.7049.85)
+<h2>Default test</h2><h3 id="m0">CucumberOptions.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search for an item and validates auto suggestion as you type&quot;</td><td>&quot;Search Funtionality on Amazon&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.java.PendingException: TODO: implement me
+	at StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box(searchFunctionality.java:102)
+	at ✽.User enters letters in the search box(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:25)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">CucumberOptions.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Blank Search&quot;</td><td>&quot;Search Funtionality on Amazon&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;nav-search-submit-button&apos;]
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0dfd1b8ee2ada15f31fe7762b23d1f94, findElement {using=xpath, value=//input[contains(@placeholder,&apos;Search Amazon.in&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\ARITRA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56206/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0dfd1b8ee2ada15f31fe7762b23d1f94
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [48e6e538-c996-4654-a5c1-ada72285cb3a, findElement {using=xpath, value=//input[@id=&apos;nav-search-submit-button&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10184, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 48e6e538-c996-4654-a5c1-ada72285cb3a
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -36,14 +39,10 @@ Session ID: 0dfd1b8ee2ada15f31fe7762b23d1f94
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at StepDefinition.searchFunctionality.user_clicks_and_searches_for_an_item(searchFunctionality.java:34)
-	at ✽.User clicks and searches for an item(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:6)
+	at StepDefinition.searchFunctionality.user_clicks_on_searchbutton(searchFunctionality.java:65)
+	at ✽.User clicks on Searchbutton(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:13)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">CucumberOptions.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search for an item and validates auto suggestion as you type&quot;</td><td>&quot;Search Funtionality on Amazon&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.java.PendingException: TODO: implement me
-	at StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box(searchFunctionality.java:102)
-	at ✽.User enters letters in the search box(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:25)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">CucumberOptions.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Blank Search&quot;</td><td>&quot;Search Funtionality on Amazon&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">CucumberOptions.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search for an item&quot;</td><td>&quot;Search Funtionality on Amazon&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">CucumberOptions.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Search for an non existent item&quot;</td><td>&quot;Search Funtionality on Amazon&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
