@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ARITRA DEY\AppData\Local\Temp\testng-eclipse--1266824654\testng-customsuite.xml</span>
+                    <span>C:\Users\ARITRA DEY\AppData\Local\Temp\testng-eclipse-1700017505\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -108,7 +108,7 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="CucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Blank Search&quot;, &quot;Search Funtionality on Amazon&quot;)">runScenario("Blank Search", "Search Funtionality on Amazon")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="CucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an item&quot;, &quot;Search Funtionality on Amazon&quot;)">runScenario("Search for an item", "Search Funtionality on Amazon")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -122,12 +122,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="CucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an item&quot;, &quot;Search Funtionality on Amazon&quot;)">runScenario("Search for an item", "Search Funtionality on Amazon")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="CucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an non existent item&quot;, &quot;Search Funtionality on Amazon&quot;)">runScenario("Search for an non existent item", "Search Funtionality on Amazon")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="CucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an non existent item&quot;, &quot;Search Funtionality on Amazon&quot;)">runScenario("Search for an non existent item", "Search Funtionality on Amazon")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="CucumberOptions.TestNGRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Blank Search&quot;, &quot;Search Funtionality on Amazon&quot;)">runScenario("Blank Search", "Search Funtionality on Amazon")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -155,7 +155,7 @@
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Search for an item and validates auto suggestion as you type","Search Funtionality on Amazon")</span>
                   <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
-	at StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box(searchFunctionality.java:102)
+	at StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box(searchFunctionality.java:129)
 	at ✽.User enters letters in the search box(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:25)
 
 </div> <!-- stack-trace -->
@@ -165,18 +165,19 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Blank Search&quot;, &quot;Search Funtionality on Amazon&quot;)">
-                  </a> <!-- runScenario("Blank Search", "Search Funtionality on Amazon") -->
+                  <a name="runScenario(&quot;Search for an item&quot;, &quot;Search Funtionality on Amazon&quot;)">
+                  </a> <!-- runScenario("Search for an item", "Search Funtionality on Amazon") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Blank Search","Search Funtionality on Amazon")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;nav-search-submit-button&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+                  <span class="parameters">("Search for an item","Search Funtionality on Amazon")</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element with the reference 4781510a-3660-4bf6-b710-ad1718a23b63 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [48e6e538-c996-4654-a5c1-ada72285cb3a, findElement {using=xpath, value=//input[@id=&apos;nav-search-submit-button&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10184, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 48e6e538-c996-4654-a5c1-ada72285cb3a
+Command: [1504b761-18d5-4ae8-b591-78698dcf9986, isElementEnabled {id=4781510a-3660-4bf6-b710-ad1718a23b63}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9800, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (1504b761-18d5-4ae8-b591-78698dcf9986)] -&gt; xpath: //span[@role=&apos;button&apos;][normalize-space()=&apos;Previous&apos;]/following-sibling::li]
+Session ID: 1504b761-18d5-4ae8-b591-78698dcf9986
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -187,12 +188,10 @@ Session ID: 48e6e538-c996-4654-a5c1-ada72285cb3a
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at StepDefinition.searchFunctionality.user_clicks_on_searchbutton(searchFunctionality.java:65)
-	at ✽.User clicks on Searchbutton(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:13)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:181)
+	at StepDefinition.searchFunctionality.user_applies_different_filters_and_narrows_down_the_search(searchFunctionality.java:74)
+	at ✽.User applies different filters and narrows down the search(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:8)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -209,20 +208,20 @@ Session ID: 48e6e538-c996-4654-a5c1-ada72285cb3a
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Search for an item&quot;, &quot;Search Funtionality on Amazon&quot;)">
-                  </a> <!-- runScenario("Search for an item", "Search Funtionality on Amazon") -->
+                  <a name="runScenario(&quot;Search for an non existent item&quot;, &quot;Search Funtionality on Amazon&quot;)">
+                  </a> <!-- runScenario("Search for an non existent item", "Search Funtionality on Amazon") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Search for an item","Search Funtionality on Amazon")</span>
+                  <span class="parameters">("Search for an non existent item","Search Funtionality on Amazon")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Search for an non existent item&quot;, &quot;Search Funtionality on Amazon&quot;)">
-                  </a> <!-- runScenario("Search for an non existent item", "Search Funtionality on Amazon") -->
+                  <a name="runScenario(&quot;Blank Search&quot;, &quot;Search Funtionality on Amazon&quot;)">
+                  </a> <!-- runScenario("Blank Search", "Search Funtionality on Amazon") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Search for an non existent item","Search Funtionality on Amazon")</span>
+                  <span class="parameters">("Blank Search","Search Funtionality on Amazon")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -232,7 +231,7 @@ Session ID: 48e6e538-c996-4654-a5c1-ada72285cb3a
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ARITRA DEY\AppData\Local\Temp\testng-eclipse--1266824654\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ARITRA DEY\AppData\Local\Temp\testng-eclipse-1700017505\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -293,19 +292,19 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'CucumberOptions.TestNGRunner')
-data.setCell(0, 3, 15347);
+data.setCell(0, 3, 19111);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'CucumberOptions.TestNGRunner')
-data.setCell(1, 3, 9241);
+data.setCell(1, 3, 6867);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'CucumberOptions.TestNGRunner')
-data.setCell(2, 3, 7976);
+data.setCell(2, 3, 6818);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'CucumberOptions.TestNGRunner')
-data.setCell(3, 3, 5316);
+data.setCell(3, 3, 4392);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -338,32 +337,32 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">CucumberOptions.TestNGRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@2f0bfe17)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@534c6767)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Search for an item", "Search Funtionality on Amazon")</span>
-                <span class="method-start">249 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">runScenario("Search for an item", "Search Funtionality on Amazon")</span>
+                <span class="method-start">198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">runScenario("Blank Search", "Search Funtionality on Amazon")</span>
-                <span class="method-start">9494 ms</span>
+                <span class="method-start">19313 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Search for an non existent item", "Search Funtionality on Amazon")</span>
-                <span class="method-start">24844 ms</span>
+                <span class="method-start">26132 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Search for an item and validates auto suggestion as you type", "Search Funtionality on Amazon")</span>
-                <span class="method-start">32822 ms</span>
+                <span class="method-start">33000 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">38141 ms</span>
+                <span class="method-start">37395 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

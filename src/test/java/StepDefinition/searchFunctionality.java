@@ -1,10 +1,17 @@
 package StepDefinition;
 
+import java.time.Duration;
 import java.util.List;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import Utilities.TestBase;
@@ -44,20 +51,93 @@ public class searchFunctionality{
 
 	@Then("User applies different filters and narrows down the search")
 	public void user_applies_different_filters_and_narrows_down_the_search() throws InterruptedException {
-	    TestBase.driver.findElement(By.xpath(" //li[@id='p_n_feature_three_browse-bin/9141482031']")).click();
+		TestBase.driver.findElement(By.xpath(" //li[@id='p_n_feature_three_browse-bin/9141482031']")).click();
 	    TestBase.driver.findElement(By.xpath("//span[@class='a-size-base a-color-base'][normalize-space()='English']")).click();
-	    WebElement scrolltoElement= TestBase.driver.findElement(By.xpath("//span[contains(text(),'Your Brain on Porn: Internet Pornography and the Emerging Science of Addiction')]"));
-	    am.scroll(scrolltoElement);
-	    if(scrolltoElement.isDisplayed()==false) {
-	    	List<WebElement> indexes=TestBase.driver.findElements(By.xpath("//span[@role='button'][normalize-space()='Previous']/following-sibling::li"));
-	    	for(WebElement ele : indexes) {
-	    		ele.click();
-	    	}
+	   
+	    WebDriverWait wait = new WebDriverWait(TestBase.driver,Duration.ofSeconds(5));
+	    
+		while (true) {
+		    try {
+		        // Always freshly locate the element inside try
+		        WebElement scrollToElement = wait.until(ExpectedConditions.presenceOfElementLocated(
+		                By.xpath("//span[contains(text(),'Porn Archives')]")));
+
+		        wait.until(ExpectedConditions.elementToBeClickable(scrollToElement));
+		        am.scroll(scrollToElement);
+		        String text = scrollToElement.getText();
+		        System.out.println(text);
+		        Assert.assertEquals(text, "Porn Archives");
+		        scrollToElement.click();
+		        break;
+
+		    } catch (TimeoutException | NoSuchElementException | StaleElementReferenceException e) {
+		    	System.out.println("Element not found or stale on current page. Moving to next page.");
+
+	            // Attempt to click on the 'Next' button if it's available
+	            try {
+	                // Locate and ensure that the "Next" button is clickable
+	                WebElement nextButton = wait.until(ExpectedConditions.elementToBeClickable(
+	                        By.xpath("//a[@role='button'][normalize-space()='Next']")));
+
+	                if (nextButton.isEnabled()) {
+	                    nextButton.click();  // Click on Next to go to the next page
+	                    System.out.println("Moved to next page.");
+	                    
+
+	                } else {
+	                    System.out.println("No more pages to navigate.");
+	                    break;  // Exit the loop if no more pages are available
+	                }
+
+	            } catch (NoSuchElementException | TimeoutException ex) {
+	                System.out.println("Next button not found or timeout while navigating.");
+	                break;  // Exit if the "Next" button is not found or navigation fails
+	            }
+	        }
 	    }
-	    String s= scrolltoElement.getText();
-	    Assert.assertEquals(s,"Your Brain on Porn: Internet Pornography and the Emerging Science of Addiction");
-	    scrolltoElement.click();
 	}
+		
+		
+		
+	   /* TestBase.driver.findElement(By.xpath(" //li[@id='p_n_feature_three_browse-bin/9141482031']")).click();
+	    TestBase.driver.findElement(By.xpath("//span[@class='a-size-base a-color-base'][normalize-space()='English']")).click();
+	   
+	    WebDriverWait wait = new WebDriverWait(TestBase.driver,Duration.ofSeconds(10));
+	    while(true) {
+	    try {
+	    WebElement scrolltoElement=wait.until(ExpectedConditions.refreshed(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[contains(text(),'Your Brain on Porn: Internet Pornography and the Emerging Science of Addiction')]"))));
+	    	wait.until(ExpectedConditions.elementToBeClickable(scrolltoElement));
+	    	am.scroll(scrolltoElement);
+	    	String s= scrolltoElement.getText();
+		    Assert.assertEquals(s,"Your Brain on Porn: Internet Pornography and the Emerging Science of Addiction");
+		    scrolltoElement.click();
+		    break;
+	    }
+	    catch (TimeoutException | NoSuchElementException | StaleElementReferenceException e){
+	    	 System.out.println("Element not found on current page.");
+	    	 WebElement scrolltoElement=TestBase.driver.findElement(By.xpath("//span[contains(text(),'Your Brain on Porn: Internet Pornography and the Emerging Science of Addiction')]"));
+		     wait.until(ExpectedConditions.elementToBeClickable(scrolltoElement));
+	         try {
+	    	 am.scroll(TestBase.driver.findElement(By.xpath("//span[@role='button'][normalize-space()='Previous']/following-sibling::li")));
+	    	 List<WebElement> indexes=TestBase.driver.findElements(By.xpath("//span[@role='button'][normalize-space()='Previous']/following-sibling::li"));
+	    	 for(WebElement ele : indexes) {
+	    		if(ele.isEnabled()) {
+	    			ele.click();
+	    		}
+	    		else {
+	    			System.out.println("The book is not available");
+	    		}
+	    	}
+	          }
+	          catch (NoSuchElementException ex) {
+	              System.out.println("No more pages to navigate.");
+	              break;
+	          }
+	    }
+	}
+	}*/
+
+	
 
 	@When("User clicks on Searchbutton")
 	public void user_clicks_on_searchbutton() throws InterruptedException {

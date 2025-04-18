@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-16T13:19:16 IST" name="Default suite" finished-at="2025-04-16T13:19:54 IST" duration-ms="38378">
+  <suite started-at="2025-04-18T19:04:39 IST" name="Default suite" finished-at="2025-04-18T19:05:16 IST" duration-ms="37420">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-16T13:19:16 IST" name="Default test" finished-at="2025-04-16T13:19:54 IST" duration-ms="38378">
+    <test started-at="2025-04-18T19:04:39 IST" name="Default test" finished-at="2025-04-18T19:05:16 IST" duration-ms="37420">
       <class name="CucumberOptions.TestNGRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-16T13:19:16 IST" name="setUpClass" finished-at="2025-04-16T13:19:16 IST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-18T19:04:39 IST" name="setUpClass" finished-at="2025-04-18T19:04:39 IST" duration-ms="185" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2f0bfe17]]>
+                <![CDATA[org.testng.TestRunner@534c6767]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-16T13:19:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T13:19:25 IST" duration-ms="9241" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-18T19:04:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-18T19:04:58 IST" duration-ms="19111" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -34,10 +34,49 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element with the reference 4781510a-3660-4bf6-b710-ad1718a23b63 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1504b761-18d5-4ae8-b591-78698dcf9986, isElementEnabled {id=4781510a-3660-4bf6-b710-ad1718a23b63}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9800, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (1504b761-18d5-4ae8-b591-78698dcf9986)] -> xpath: //span[@role='button'][normalize-space()='Previous']/following-sibling::li]
+Session ID: 1504b761-18d5-4ae8-b591-78698dcf9986]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element with the reference 4781510a-3660-4bf6-b710-ad1718a23b63 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1504b761-18d5-4ae8-b591-78698dcf9986, isElementEnabled {id=4781510a-3660-4bf6-b710-ad1718a23b63}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9800, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (1504b761-18d5-4ae8-b591-78698dcf9986)] -> xpath: //span[@role='button'][normalize-space()='Previous']/following-sibling::li]
+Session ID: 1504b761-18d5-4ae8-b591-78698dcf9986
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:181)
+at StepDefinition.searchFunctionality.user_applies_different_filters_and_narrows_down_the_search(searchFunctionality.java:74)
+at ✽.User applies different filters and narrows down the search(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-16T13:19:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T13:19:41 IST" duration-ms="15347" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-18T19:04:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-18T19:05:05 IST" duration-ms="6818" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,49 +89,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //input[@id='nav-search-submit-button']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [48e6e538-c996-4654-a5c1-ada72285cb3a, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10184, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 48e6e538-c996-4654-a5c1-ada72285cb3a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='nav-search-submit-button']
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.29.0', revision: '5fc1ec94cb'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [48e6e538-c996-4654-a5c1-ada72285cb3a, findElement {using=xpath, value=//input[@id='nav-search-submit-button']}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.1, moz:accessibilityChecks: false, moz:buildID: 20250407111027, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10184, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 48e6e538-c996-4654-a5c1-ada72285cb3a
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at StepDefinition.searchFunctionality.user_clicks_on_searchbutton(searchFunctionality.java:65)
-at ✽.User clicks on Searchbutton(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-16T13:19:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T13:19:49 IST" duration-ms="7976" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-18T19:05:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-18T19:05:12 IST" duration-ms="6867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@ at ✽.User clicks on Searchbutton(file:///C:/Users/ARITRA%20DEY/eclipse-workspa
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-16T13:19:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-16T13:19:54 IST" duration-ms="5316" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-18T19:05:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-18T19:05:16 IST" duration-ms="4392" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -127,7 +127,7 @@ at ✽.User clicks on Searchbutton(file:///C:/Users/ARITRA%20DEY/eclipse-workspa
             </message>
             <full-stacktrace>
               <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-at StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box(searchFunctionality.java:102)
+at StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box(searchFunctionality.java:129)
 at ✽.User enters letters in the search box(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:25)
 ]]>
             </full-stacktrace>
@@ -135,7 +135,7 @@ at ✽.User enters letters in the search box(file:///C:/Users/ARITRA%20DEY/eclip
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-16T13:19:54 IST" name="tearDownClass" finished-at="2025-04-16T13:19:54 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestNGRunner@376a0d86]" started-at="2025-04-18T19:05:16 IST" name="tearDownClass" finished-at="2025-04-18T19:05:16 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
