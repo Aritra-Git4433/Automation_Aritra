@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="66.636" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.756" tests="4" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\ARITRA DEY\AppData\Local\Temp\surefire13770068954200906967\surefirebooter-20250418221053072_3.jar C:\Users\ARITRA DEY\AppData\Local\Temp\surefire13770068954200906967 2025-04-18T22-10-52_592-jvmRun1 surefire-20250418221053072_1tmp surefire_0-20250418221053072_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ARITRA DEY\AppData\Local\Temp\surefire8811102245477464637\surefirebooter-20250430162846418_3.jar C:\Users\ARITRA DEY\AppData\Local\Temp\surefire8811102245477464637 2025-04-30T16-28-45_857-jvmRun1 surefire-20250430162846418_1tmp surefire_0-20250430162846418_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ARITRA DEY\eclipse-workspace\automationAmazon\target\test-classes;C:\Users\ARITRA DEY\eclipse-workspace\automationAmazon\target\classes;C:\Users\ARITRA DEY\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.1\allure-cucumber7-jvm-2.29.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\ARITRA DEY\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\ARITRA DEY\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ARITRA DEY\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ARITRA DEY\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ARITRA DEY\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ARITRA DEY\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-java\4.29.0\selenium-java-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-api\4.29.0\selenium-api-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.29.0\selenium-chrome-driver-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.29.0\selenium-chromium-driver-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-json\4.29.0\selenium-json-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.29.0\selenium-manager-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.29.0\selenium-devtools-v131-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.29.0\selenium-devtools-v132-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.29.0\selenium-devtools-v133-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.29.0\selenium-devtools-v85-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.29.0\selenium-edge-driver-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.29.0\selenium-firefox-driver-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-http\4.29.0\selenium-http-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.29.0\selenium-ie-driver-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.29.0\selenium-remote-driver-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\com\google\guava\guava\33.4.0-jre\guava-33.4.0-jre.jar;C:\Users\ARITRA DEY\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ARITRA DEY\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ARITRA DEY\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ARITRA DEY\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\ARITRA DEY\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\ARITRA DEY\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-api\1.46.0\opentelemetry-api-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-context\1.46.0\opentelemetry-context-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.46.0\opentelemetry-exporter-logging-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.46.0\opentelemetry-sdk-common-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.46.0\opentelemetry-sdk-extension-autoconfigure-spi-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.46.0\opentelemetry-sdk-extension-autoconfigure-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.46.0-alpha\opentelemetry-api-incubator-1.46.0-alpha.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.46.0\opentelemetry-sdk-trace-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.46.0\opentelemetry-sdk-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.46.0\opentelemetry-sdk-metrics-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.46.0\opentelemetry-sdk-logs-1.46.0.jar;C:\Users\ARITRA DEY\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-os\4.29.0\selenium-os-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.29.0\selenium-safari-driver-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\seleniumhq\selenium\selenium-support\4.29.0\selenium-support-4.29.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\ARITRA DEY\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\io\cucumber\cucumber-picocontainer\7.21.1\cucumber-picocontainer-7.21.1.jar;C:\Users\ARITRA DEY\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\ARITRA DEY\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\ARITRA DEY\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ARITRA DEY\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ARITRA DEY\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="allure.results.directory" value="target/allure-results"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ARITRA DEY\AppData\Local\Temp\surefire13770068954200906967\surefirebooter-20250418221053072_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ARITRA DEY\AppData\Local\Temp\surefire8811102245477464637\surefirebooter-20250430162846418_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -53,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ARITRA DEY\;C:\ProgramData\chocolatey\bin;C:\Users\ARITRA DEY\AppData\Local\Android\tools\bin;C:\Users\ARITRA DEY\AppData\Local\Android\platform-tools;C:\Users\ARITRA DEY\node_modules\npm\bin;C:\Users\ARITRA DEY\AppData\Local\Android\build-tools\36.0.0;C:\Program Files\Git\cmd\;C:\Program Files\Git\bin\;C:\Users\ARITRA DEY\Maven\apache-maven-3.9.9\bin;C:\Users\ARITRA DEY\eclipse-workspace\automationAmazon\.allure\allure-2.13.9\bin;C:\Users\ARITRA DEY\eclipse-workspace\;C:\Users\ARITRA DEY\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.2\bin;C:\Users\ARITRA DEY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ARITRA DEY\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\ARITRA DEY\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ARITRA DEY\;C:\ProgramData\chocolatey\bin;C:\Users\ARITRA DEY\AppData\Local\Android\tools\bin;C:\Users\ARITRA DEY\AppData\Local\Android\platform-tools;C:\Users\ARITRA DEY\node_modules\npm\bin;C:\Users\ARITRA DEY\AppData\Local\Android\build-tools\36.0.0;C:\Program Files\Git\cmd\;C:\Program Files\Git\bin\;C:\Users\ARITRA DEY\Maven\apache-maven-3.9.9\bin;C:\Users\ARITRA DEY\eclipse-workspace\automationAmazon\.allure\allure-2.13.9\bin;C:\Users\ARITRA DEY\eclipse-workspace\;C:\Users\ARITRA DEY\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.1.2\bin;;C:\Users\ARITRA DEY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ARITRA DEY\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\ARITRA DEY\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -61,7 +61,35 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Search for an item&quot;, &quot;Search Funtionality on Amazon&quot;](1)" classname="CucumberOptions.TestNGRunner" time="42.326">
+  <testcase name="runScenario[&quot;Search for an item&quot;, &quot;Search Funtionality on Amazon&quot;](1)" classname="CucumberOptions.TestNGRunner" time="36.039">
+    <failure message="Failed to decode response from marionette&#10;Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [a5c4aed1-b459-43d0-9a8e-8291fa22a044, findElement {value=//span[contains(text(),&apos;Porn Archives&apos;)], using=xpath}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21896, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: a5c4aed1-b459-43d0-9a8e-8291fa22a044" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a5c4aed1-b459-43d0-9a8e-8291fa22a044, findElement {value=//span[contains(text(),'Porn Archives')], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21896, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a5c4aed1-b459-43d0-9a8e-8291fa22a044
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at StepDefinition.searchFunctionality.user_applies_different_filters_and_narrows_down_the_search(searchFunctionality.java:63)
+	at ✽.User applies different filters and narrows down the search(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:8)
+]]></failure>
     <system-out><![CDATA[
 Scenario: Search for an item                                      # src/test/java/features/SearchFunctionality.feature:4
 https://www.amazon.in/
@@ -72,50 +100,229 @@ Element not found or stale on current page. Moving to next page.
 Moved to next page.
 Element not found or stale on current page. Moving to next page.
 Moved to next page.
-Element not found or stale on current page. Moving to next page.
-Moved to next page.
-Porn Archives
   Then User applies different filters and narrows down the search # StepDefinition.searchFunctionality.user_applies_different_filters_and_narrows_down_the_search()
+      org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+      Build info: version: '4.29.0', revision: '5fc1ec94cb'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Command: [a5c4aed1-b459-43d0-9a8e-8291fa22a044, findElement {value=//span[contains(text(),'Porn Archives')], using=xpath}]
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21896, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+      Session ID: a5c4aed1-b459-43d0-9a8e-8291fa22a044
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+      	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+      	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+      	at StepDefinition.searchFunctionality.user_applies_different_filters_and_narrows_down_the_search(searchFunctionality.java:63)
+      	at ✽.User applies different filters and narrows down the search(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:8)
+      org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+      Build info: version: '4.29.0', revision: '5fc1ec94cb'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Command: [a5c4aed1-b459-43d0-9a8e-8291fa22a044, quit {}]
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21896, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+      Session ID: a5c4aed1-b459-43d0-9a8e-8291fa22a044
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+      	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+      	at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Blank Search&quot;, &quot;Search Funtionality on Amazon&quot;](2)" classname="CucumberOptions.TestNGRunner" time="8.818">
+  <testcase name="runScenario[&quot;Blank Search&quot;, &quot;Search Funtionality on Amazon&quot;](2)" classname="CucumberOptions.TestNGRunner" time="0.032">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [null, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21896, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21896, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+	at Utilities.TestBase.DriverManager(TestBase.java:46)
+	at Hooks.driverHook.setUp(driverHook.java:16)
+]]></failure>
     <system-out><![CDATA[
 Scenario: Blank Search             # src/test/java/features/SearchFunctionality.feature:11
-https://www.amazon.in/
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+      Build info: version: '4.29.0', revision: '5fc1ec94cb'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Command: [null, maximizeCurrentWindow {}]
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21896, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:176)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+      	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+      	at Utilities.TestBase.DriverManager(TestBase.java:46)
+      	at Hooks.driverHook.setUp(driverHook.java:16)
   Given User is on the HomePage    # StepDefinition.searchFunctionality.user_is_on_the_home_page()
   When User clicks on Searchbutton # StepDefinition.searchFunctionality.user_clicks_on_searchbutton()
   But User stays in the same page  # StepDefinition.searchFunctionality.user_stays_in_the_same_page()
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Search for an non existent item&quot;, &quot;Search Funtionality on Amazon&quot;](3)" classname="CucumberOptions.TestNGRunner" time="8.387">
+  <testcase name="runScenario[&quot;Search for an non existent item&quot;, &quot;Search Funtionality on Amazon&quot;](3)" classname="CucumberOptions.TestNGRunner" time="0.319">
+    <failure message="Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 &#10;Host info: host: &apos;ARITRA-LEN&apos;, ip: &apos;192.168.1.4&apos;&#10;Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]}]" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+Host info: host: 'ARITRA-LEN', ip: '192.168.1.4'
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:142)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:99)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:89)
+	at Utilities.TestBase.DriverManager(TestBase.java:34)
+	at Hooks.driverHook.setUp(driverHook.java:16)
+]]></failure>
     <system-out><![CDATA[
 Scenario: Search for an non existent item                                                  # src/test/java/features/SearchFunctionality.feature:17
-https://www.amazon.in/
+      org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+      Host info: host: 'ARITRA-LEN', ip: '192.168.1.4'
+      Build info: version: '4.29.0', revision: '5fc1ec94cb'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {prefs: {remote.active-protocols: 3}}}]}]
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+      	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+      	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:142)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:137)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:119)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:99)
+      	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:89)
+      	at Utilities.TestBase.DriverManager(TestBase.java:34)
+      	at Hooks.driverHook.setUp(driverHook.java:16)
   Given User is on the HomePage                                                            # StepDefinition.searchFunctionality.user_is_on_the_home_page()
   When User searches for an non existent item                                              # StepDefinition.searchFunctionality.user_searches_for_an_non_existent_item()
   Then Checks the auto correction happening and user selects the non existent item instead # StepDefinition.searchFunctionality.checks_the_auto_correction_happening_and_user_selects_the_non_existent_item_instead()
   And User sees no results found page                                                      # StepDefinition.searchFunctionality.user_sees_no_results_found_page()
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Search for an item and validates auto suggestion as you type&quot;, &quot;Search Funtionality on Amazon&quot;](4)" classname="CucumberOptions.TestNGRunner" time="5.979">
-    <failure message="TODO: implement me" type="io.cucumber.java.PendingException"><![CDATA[io.cucumber.java.PendingException: TODO: implement me
-	at StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box(searchFunctionality.java:182)
-	at ✽.User enters letters in the search box(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:25)
+  <testcase name="runScenario[&quot;Search for an item and validates auto suggestion as you type&quot;, &quot;Search Funtionality on Amazon&quot;](4)" classname="CucumberOptions.TestNGRunner" time="4.983">
+    <failure message="Browsing context has been discarded&#10;Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [f333d808-f254-4bfd-8ebd-370da23a51aa, getCurrentUrl {}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2380, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: f333d808-f254-4bfd-8ebd-370da23a51aa" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f333d808-f254-4bfd-8ebd-370da23a51aa, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2380, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f333d808-f254-4bfd-8ebd-370da23a51aa
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325)
+	at StepDefinition.searchFunctionality.user_is_on_the_home_page(searchFunctionality.java:33)
+	at ✽.User is on the HomePage(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:24)
 ]]></failure>
     <system-out><![CDATA[
 Scenario: Search for an item and validates auto suggestion as you type   # src/test/java/features/SearchFunctionality.feature:23
-https://www.amazon.in/
   Given User is on the HomePage                                          # StepDefinition.searchFunctionality.user_is_on_the_home_page()
+      org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+      Build info: version: '4.29.0', revision: '5fc1ec94cb'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Command: [f333d808-f254-4bfd-8ebd-370da23a51aa, getCurrentUrl {}]
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2380, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+      Session ID: f333d808-f254-4bfd-8ebd-370da23a51aa
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325)
+      	at StepDefinition.searchFunctionality.user_is_on_the_home_page(searchFunctionality.java:33)
+      	at ✽.User is on the HomePage(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:24)
   When User enters letters in the search box                             # StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box()
-      io.cucumber.java.PendingException: TODO: implement me
-      	at StepDefinition.searchFunctionality.user_enters_letters_in_the_search_box(searchFunctionality.java:182)
-      	at ✽.User enters letters in the search box(file:///C:/Users/ARITRA%20DEY/eclipse-workspace/automationAmazon/src/test/java/features/SearchFunctionality.feature:25)
   And User checks auto completion results from the drop-down             # StepDefinition.searchFunctionality.user_checks_auto_completion_results_from_the_drop_down()
   Then User clicks on the sixth auto completed result from the drop-down # StepDefinition.searchFunctionality.user_clicks_on_the_sixth_auto_completed_result_from_the_drop_down()
+      org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+      Build info: version: '4.29.0', revision: '5fc1ec94cb'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Command: [f333d808-f254-4bfd-8ebd-370da23a51aa, quit {}]
+      Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2380, moz:profile: C:\Users\ARITRA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+      Session ID: f333d808-f254-4bfd-8ebd-370da23a51aa
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+      	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+      	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+      	at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]></system-out>
   </testcase>
 </testsuite>

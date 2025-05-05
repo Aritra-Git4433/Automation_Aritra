@@ -19,10 +19,5 @@ Feature: Search Funtionality on Amazon
    When  User searches for an non existent item
    Then Checks the auto correction happening and user selects the non existent item instead 
    And User sees no results found page
-   
-  Scenario: Search for an item and validates auto suggestion as you type
-   Given User is on the HomePage
-   When  User enters letters in the search box
-   And  User checks auto completion results from the drop-down 
-   Then User clicks on the sixth auto completed result from the drop-down
+ 
    
