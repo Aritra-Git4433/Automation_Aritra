@@ -1,4 +1,4 @@
-@recent_development
+
 Feature: Sorting and filtering
 
   #Apply filters (Brand, Price, Rating, etc.)
